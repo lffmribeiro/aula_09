@@ -1,9 +1,11 @@
 # Convertendo Celsius para Fahrenheit
 # Ela deve receber uma lista e fazera conversão
 
+from pydantic import validate_call
 
 lista_celsius: float = []
 
+@validate_call
 def c_para_f(lista_celsius):
     lista_fahrenheit: float = []
     for c in lista_celsius:
