@@ -18,4 +18,18 @@ As funções são responsáveis por processar informações com base em três co
 
 6. **Escalabilidade**: Funções facilitam a extensão e modificação do código. Novas funcionalidades podem ser adicionadas como novas funções, sem impactar outras partes do programa.
 
-As funções são, portanto, uma ferramenta essencial para a escrita de código eficiente, modular e sustentável.
+### Estrutura de uma Função
+
+As funções em programação possuem uma estrutura que inclui:
+
+- **Nome da Função**: Um identificador único que descreve o propósito da função.
+- **Parâmetros**: Variáveis listadas na definição da função. Elas representam os dados que a função espera receber.
+- **Argumentos**: Valores reais passados para a função quando ela é chamada. Eles substituem os parâmetros definidos.
+- **Retorno (return)**: O valor que a função devolve após executar seu código.
+
+### Diferença entre Parâmetros e Argumentos
+
+- **Parâmetros**: São variáveis declaradas na definição da função. Eles servem como marcadores de posição que a função espera receber quando chamada.
+  ```python
+  def soma(a, b):  # a e b são parâmetros
+      return a + b
